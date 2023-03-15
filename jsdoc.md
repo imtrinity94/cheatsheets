@@ -2,7 +2,7 @@
 title: Jsdoc
 category: JavaScript
 layout: 2017/sheet
-updated: 2020-06-23
+updated: 2022-03-15
 weight: -1
 ---
 
@@ -35,12 +35,11 @@ See: <https://jsdoc.app/index.html>
 | ------------------------------- | ------------------------------------- |
 | `@param {string=} n`            | Optional                              |
 | `@param {string} [n]`           | Optional                              |
-| `@param {(string|number)} n`    | Multiple types                        |
+| `@param {(string\|number)} n`   | Multiple types                        |
 | `@param {*} n`                  | Any type                              |
-| `@param {...string} n`          | Repeatable arguments                  |
 | `@param {string} [n="hi"]`      | Optional with default                 |
 | `@param {string[]} n`           | Array of strings                      |
-| `@return {Promise<string[]>} n` | Promise fulfilled by array of strings |
+
 
 See: <https://jsdoc.app/tags-type.html>
 
